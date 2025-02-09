@@ -5,7 +5,7 @@ const info  = document.querySelector(".additionalInfo")
 const age = document.querySelector("[data-attr=age]")
 const email = document.querySelector("[data-attr=email]")
 const phone = document.querySelector("[data-attr=phone]")
-const userBtn = document.querySelector(".getUser")
+const userBtn = document.querySelector("#getUser")
 let ageValue = 0;
 let emailValue = 0;
 let phoneValue = 0;
