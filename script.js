@@ -26,8 +26,13 @@ function ageHandeler(){
 function emailHandeler(){
 	info.textContent = `${emailValue}`
 } 
-function ageHandeler(){
-	info.textContent = `${ageValue}`
+function phoneHandeler(){ 
+	info.textContent = `${phoneValue}`
 } 
 age.addEventListener("click",ageHandeler)
 email.addEventListener("click",emailHandeler)
+phone.addEventListener("click",phoneHandeler)
+userBtn.addEventListener("click",()=>{
+	getData()  
+	info.textContent = ""
+})
